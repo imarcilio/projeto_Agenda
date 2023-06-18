@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="./images/calendar.ico" type="image">
+    <title>Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/calendar.png" alt="Icone Agenda">
+            <h1>Agenda de contatos</h1>
+        </header>
+        <div class="search">
+            <label for="input-busca">Buscar contato:</label>
+            <input id="input-busca" type="text" class="form-control" placeholder="Procure seu contato">
+        </div>
+        
+        <form id="form-contact">
+            <label for="name">Nome:</label>
+            <input type="text" class="input"  id="name" placeholder="Digite seu número">
+            <label for="phoneNumber">Telefone:</label>
+            <input type="number" class="input" id="phoneNumber" placeholder="XXXXX-XXXX">
+            <div class="btnGeneral">
+                <button type="submit">Cadastrar</button>
+            </div>
+            
+        </form>
+        <table cellspacing="0" id="table">
+            <thead>
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Número
+                    </th>
+                    <th>
+                        Apagar
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="tableContact"> 
+            </tbody>
+
+        </table>
+
+
+
+    </div>
+    <script src="./main.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

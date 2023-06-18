@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-image: url(./images/agenda-personalizada.jpeg);
+    background-size: cover;
+    padding-top: 80px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    width: 40px;
+    position: absolute;
+    margin-left: 90px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.search{
+    margin: 0 0 10px 20px;
+    display: flex;
+}
+
+#input-busca{
+    padding: 6px;
+    width: 250px;
+}
+
+.container{
+    max-width: 790px;
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+    background-color: #fff;
+    border-radius: 20px;
+       
+}
+
+form{
+    display: flex;
+    max-width: 650px;
+    width: 100%;
+    margin-left: 20px;
+    justify-content:space-around;
+    margin-bottom: 20px auto;
+    
+}
+
+.location{
+    display: flex;
+    margin: 0 20px;
+}
+
+label{
+    margin: 6px 16px 0 0;
+    
+}
+
+
+form input{
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid rgb(75, 71, 65);
+    padding: 6px;
+}
+
+#name{
+    width: 550px;
+}
+
+#phoneNumber{
+    width: 150px;
+}
+
+.btnGeneral button{
+    display: flex;
+    position: absolute;
+    background-color: rgb(51, 165, 51);
+    padding: 12px;
+    margin-left: 8px;
+    margin-top: -8px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btnGeneral button:hover{
+    background-color: green;
+    font-size: 20px;
+}
+
+table{
+    max-width: 500px;
+    width: 100%;
+    justify-content:space-between;
+    margin: 20px auto;
+}
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table td{
+    text-align: center;
+    justify-content: center;
+    padding: 16px 0;
+    border-bottom: 2px solid rgba(97, 97, 97,0.3);
+}
+
+.excluir{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.excluir:hover{
+    background-color: rgb(167, 9, 9);
+
+
+}
+
+
